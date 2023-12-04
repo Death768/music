@@ -11,6 +11,8 @@ public:
 	void pause();
 	void setVolume(float volume);
 
+	bool isPlaying();
+
 private:
 	sf::Music music;
 };

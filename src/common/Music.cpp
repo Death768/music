@@ -21,3 +21,8 @@ void Music::setVolume(float volume)
 {
 	music.setVolume(volume);
 }
+
+bool Music::isPlaying()
+{
+	return music.getStatus() == sf::Music::Playing;
+}
