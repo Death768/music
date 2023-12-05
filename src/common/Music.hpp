@@ -5,7 +5,6 @@ class Music
 {
 public:
 	Music(std::string path);
-	~Music();
 	void play();
 	void stop();
 	void pause();

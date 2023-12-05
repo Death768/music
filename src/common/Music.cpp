@@ -9,10 +9,6 @@ Music::Music(std::string path)
 	}
 }
 
-Music::~Music()
-{
-}
-
 void Music::play() { music.play(); }
 void Music::stop() { music.stop(); }
 void Music::pause() { music.pause(); }
