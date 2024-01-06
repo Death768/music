@@ -14,4 +14,5 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(SFML)
 
 add_executable(MusicPlayer src/main.cpp)
+target_sources(MusicPlayer PRIVATE src/common/MusicPlayer.cpp src/common/MusicPlayer.hpp)
 target_link_libraries(MusicPlayer sfml-audio sfml-system)

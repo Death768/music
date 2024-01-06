@@ -6,6 +6,9 @@ class MusicPlayer
 {
 public:
 	MusicPlayer();
+
+	void main();
+
 	void play();
 	void stop();
 
@@ -22,4 +25,6 @@ private:
 	std::queue<std::string> musicQueue;
 	float volume;
 	bool paused;
+
+	void keepMusicPlaying();
 };
